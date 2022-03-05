@@ -31,9 +31,7 @@ img.rounded {
 }
 </style>
 
-## Paper
-[PDF](https://arxiv.org/abs/2202.09400)&nbsp;&nbsp;•&nbsp;&nbsp; 
-[CODE](https://github.com/HaojHuang/Equivariant-Transporter-Net)&nbsp;&nbsp;•&nbsp;&nbsp;
+## Paper &nbsp;&nbsp; &nbsp;&nbsp; [PDF](https://arxiv.org/abs/2202.09400)&nbsp;&nbsp;•&nbsp;&nbsp; [CODE](https://github.com/HaojHuang/Equivariant-Transporter-Net)&nbsp;&nbsp;•&nbsp;&nbsp;
 
 <div style="width:100%; display:flex">
   
@@ -67,12 +65,12 @@ img.rounded {
 
 </div>
 
-Khoury College of Computer Sciences, Northeastern University
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Khoury College of Computer Sciences, Northeastern University
 
-## Video
+## Introduction
 
-## Code
 
+## Highlight
 
 ## Citation
 
