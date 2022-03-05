@@ -38,7 +38,7 @@ img.rounded {
 <div style="width:100%; display:flex">
   
 <div class="people_column">
-    <img src="img/haojie.jpeg" class="rounded">
+    <img src="img/haojie.jpg" class="rounded">
     <p class="caption">
       <a href="https://haojhuang.github.io">Haojie Huang</a>
     </p>
