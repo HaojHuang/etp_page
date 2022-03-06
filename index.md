@@ -97,6 +97,7 @@ img.rounded {
     <p class="caption">Stack Block Pyramid</p>
   </div>
 </div>
+
 ## Highlight
 
 ## Citation
