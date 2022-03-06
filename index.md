@@ -31,6 +31,11 @@ Many challenging robotic manipulation problems can be viewed through the lens of
     vertical-align: baseline;
     text-align: center;
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .column_r {
   float: right;
@@ -45,6 +50,11 @@ Many challenging robotic manipulation problems can be viewed through the lens of
     vertical-align: baseline;
     text-align: center;
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .column_m {
   float: left;
@@ -53,6 +63,11 @@ Many challenging robotic manipulation problems can be viewed through the lens of
 .lc{
   float: left;
   width: 16.66%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
