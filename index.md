@@ -108,6 +108,9 @@ img.rounded {
     <img src="img/cn_by_cn.png" style="width:100%">
     <p class="caption"> C_n times C_n Equivariance </p>
   </div>
+  
+  <div>
+  </div>>
 </div>
 
 
