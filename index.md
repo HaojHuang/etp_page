@@ -128,6 +128,10 @@ img.rounded {
   </div>
 </div>
 
+<p align="center">
+  <img src="img/gripper.png" width="600px">
+</p>
+
 <p></p><br>
 
 ## Highlight
