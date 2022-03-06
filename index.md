@@ -110,7 +110,8 @@ img.rounded {
   </div>
   
   <div>
-  </div>>
+   <br>
+  </div>
 </div>
 
 
