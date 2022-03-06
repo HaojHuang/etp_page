@@ -46,13 +46,19 @@ Transporter Net is a recently proposed framework for pick and place that is able
 }
 
 .column_m {
-  float: right;
+  float: left;
   width: 20.00%;
 }
 .lc{
   float: left;
   width: 16.66%;
 }
+.caption {
+    margin: 0;
+    vertical-align: baseline;
+    text-align: center;
+}
+
 
 
 img.rounded {
@@ -116,9 +122,10 @@ img.rounded {
   
   <div class="column_m">
     <img src="img/blank.png" style="width:100%">
+    <p class="caption"></p>
   </div>
   
-  <div class="column_r">
+  <div class="column_l">
     <img src="img/cn_by_cn.png" style="width:100%">
     <p class="caption"> C_n times C_n Equivariance </p>
   </div>
