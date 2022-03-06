@@ -20,7 +20,7 @@ Many challenging robotic manipulation problems can be viewed through the lens of
 
 .column_l {
   float: left;
-  width: 40.00%;
+  width: 33.00%;
 }
 .lc{
   float: left;
@@ -36,41 +36,6 @@ Many challenging robotic manipulation problems can be viewed through the lens of
   clear: both;
   display: table;
 }
-
-.column_r {
-  float: right;
-  width: 40.00%;
-}
-.lc{
-  float: left;
-  width: 16.66%;
-}
-.caption {
-    margin: 0;
-    vertical-align: baseline;
-    text-align: center;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.column_m {
-  float: left;
-  width: 20.00%;
-}
-.lc{
-  float: left;
-  width: 16.66%;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
 
 img.rounded {
   object-fit: cover;
@@ -135,15 +100,17 @@ img.rounded {
     <p class="caption"> C_n Equivariance</p>
   </div>
   
-  <div class="column_m">
+  <div class="column_l">
     <img src="img/blank.png" style="width:100%">
+    <p class="caption"> "" </p>
   </div>
   
-  <div class="column_r">
+  <div class="column_l">
     <img src="img/cn_by_cn.png" style="width:100%">
     <p class="caption"> C_n times C_n Equivariance </p>
   </div>
 </div>
+
 
 Pick and place is an important topic in manipulation due to its value in industry. Traditional assembly methods in factories require customized workstations so that fixed pick and place actions can be manually predefined. Recently, considerable research has focused on end-to-end visioned based models that directly map input observations to actions, which can learn quickly and generalize well. However, due to the large action space, these methods often require copious amounts of data.
 
