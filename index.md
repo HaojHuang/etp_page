@@ -117,9 +117,9 @@ Although Transporter Net is C_n-equivariant with regard to pick, the model does 
 
 ### Highlight
 
-In our paper, we will first go through the design of Transporter Net and prove its C_n-Equivariance theoretically, and extend it to C_n-times-C_n Equivariance smoothly. The key point inside our equivariane is the Relativity Property, i.e., a rotation on the picked object is equivariant to an inverse rotation on the placement. We show the entire proof step by step in our Appendix. 
+In our paper, we will first go through the design of Transporter Net and prove its C_n-Equivariance theoretically, and extend it to C_n-times-C_n Equivariance smoothly. The key point inside C_n-times-C_n Equivariance is the Relativity Property, i.e., a rotation on the picked object is equivariant to an inverse rotation on the placement. The entire proofs are shown step by step in our Appendix. 
 
-The experiment part of our paper is based on [Ravens](https://github.com/google-research/ravens), a simulation environment in PyBullet for 2D robotic manipulation with emphasis on pick and place. Since Ravens uses suction gripper that doesn't require pick angle inference, we select five tasks described below and provide a Panda-Gripper version simulated Environment. 
+The experiment part of our paper is based on [Ravens](https://github.com/google-research/ravens), a simulation environment in PyBullet for 2D robotic manipulation with emphasis on pick and place. Since Ravens uses suction gripper that doesn't require pick angle inference, we select five tasks shown below and provide a Panda-Gripper version simulated Environment. 
 It inherits the Gym-like API from Ravens, each with (i) a scripted oracle that provides expert demonstrations and (ii) reward functions that provide partial credit. Check our code for more details.
 
 <p align="center">
