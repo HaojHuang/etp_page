@@ -130,10 +130,10 @@ A recent sample-efficient framework, Transporter Net, detects the pick-condition
   
   <div class="column_m">
     <img src="img/blank.png" style="width:100%">
-    <p class="caption"></p>
+    <p class="caption"> </p>
   </div>
   
-  <div class="column_l">
+  <div class="column_r">
     <img src="img/cn_by_cn.png" style="width:100%">
     <p class="caption"> C_n times C_n Equivariance </p>
   </div>
