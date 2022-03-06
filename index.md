@@ -67,9 +67,23 @@ img.rounded {
 
 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Khoury College of Computer Sciences, Northeastern University
 
-## Introduction
+## Elevator Pitch
 
 
+<div>
+  <div class="column">
+    <img src="img/block-insertion.gif" style="width:100%">
+    <p class="caption">Block Insertion</p>
+  </div>
+  <div class="column">
+    <img src="img/place-boxes-in-bowls.gif" style="width:100%">
+    <p class="caption">Place Boxes in Bowls </p>
+  </div>
+  <div class="column">
+    <img src="img/stack-block-pyramid.gif" style="width:100%">
+    <p class="caption">Stack Block Pyramid</p>
+  </div>
+</div>
 ## Highlight
 
 ## Citation
