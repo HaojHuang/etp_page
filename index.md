@@ -65,7 +65,7 @@ img.rounded {
 
 </div>
 
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Khoury College of Computer Sciences, Northeastern University
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Khoury College of Computer Sciences, Northeastern University
 
 ## Introduction
 
