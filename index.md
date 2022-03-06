@@ -20,7 +20,7 @@ Many challenging robotic manipulation problems can be viewed through the lens of
 
 .column_l {
   float: left;
-  width: 33.33%;
+  width: 50.00%;
 }
 .lc{
   float: left;
@@ -99,19 +99,12 @@ img.rounded {
     <img src="img/cn.png" style="width:100%">
     <p class="caption"> C_n Equivariance</p>
   </div>
-  
-  <div class="column_l">
-    <img src="img/blank.png" style="width:100%">
-  </div>
-  
+ 
   <div class="column_l">
     <img src="img/cn_by_cn.png" style="width:100%">
     <p class="caption"> C_n times C_n Equivariance </p>
   </div>
-  
-  <div>
-   <br>
-  </div>
+
 </div>
 
 
