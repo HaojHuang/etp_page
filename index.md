@@ -104,7 +104,7 @@ Pick and place is an important topic in manipulation due to its value in industr
  
   <div class="column_l">
     <img src="img/cn_by_cn.png" style="width:80%">
-    <p class="caption"> C_n times C_n Equivariance </p>
+    <p class="caption"> C_n by C_n Equivariance </p>
   </div>
 
 </div>
