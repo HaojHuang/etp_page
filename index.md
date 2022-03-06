@@ -109,8 +109,9 @@ img.rounded {
   </div>
 </div>
 
-New line here
-<br>
+
+<p>New line here</p><br>
+
 
 <div>
   <div class="column">
@@ -126,6 +127,8 @@ New line here
     <p class="caption">Stack Block Pyramid</p>
   </div>
 </div>
+
+<p></p><br>
 
 ## Highlight
 
