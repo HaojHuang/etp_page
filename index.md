@@ -119,9 +119,8 @@ img.rounded {
 
 Pick and place is an important topic in manipulation due to its value in industry. Traditional assembly methods in factories require customized workstations so that fixed pick and place actions can be manually predefined. Recently, considerable research has focused on end-to-end visioned based models that directly map input observations to actions, which can learn quickly and generalize well. However, due to the large action space, these methods often require copious amounts of data.
 
-A recent sample-efficient framework, Transporter Net, detects the pick-conditioned place pose by performing the cross convolution between an encoding of the scene and an encoding of a stack of differently rotated image patches around the pick. As  a  result  of  this  design,  Transporter Net is equivariant with respect to pick orientation. As shown in the left figure below, if the model can correctly pick the pink object and place it inside the green outline when the object is presented in one orientation, it is automatically able to pick and place the same object when it is presented in a different orientation.  This symmetry over object orientation enables Transporter Net to generalize well and it is fundamentally linked to the sample efficiency of the model. Assuming that pick orientation is discretized into n possible gripper rotations, we will refer to this as a C_n pick symmetry, where C_n is the finite cyclic subgroup of SO(2) that denotes a set of $n$ rotations.
+A recent sample-efficient framework, Transporter Net, detects the pick-conditioned place pose by performing the cross convolution between an encoding of the scene and an encoding of a stack of differently rotated image patches around the pick. As  a  result  of  this  design,  Transporter Net is equivariant with respect to pick orientation. As shown in the left figure below, if the model can correctly pick the pink object and place it inside the green outline when the object is presented in one orientation, it is automatically able to pick and place the same object when it is presented in a different orientation.  This symmetry over object orientation enables Transporter Net to generalize well and it is fundamentally linked to the sample efficiency of the model. Assuming that pick orientation is discretized into n possible gripper rotations, we will refer to this as a C_n pick symmetry, where C_n is the finite cyclic subgroup of SO(2) that denotes a set of n rotations.
 
-Although Transporter Net is C_n-equivariant with regard to pick, the model does not have a similar equivariance with regard to place. That is, if the model learns how to place an object in one orientation, that knowledge does not generalize immediately to different place orientations. This work seeks to add this type of equivariance to the Transporter Network model by incorporating C_n-equivarant convolutional layers into both the pick and place models. Our resulting model is equivariant both to changes in pick object orientation and changes in place orientation. This symmetry is illustrated in right figure below and can be viewed as a direct product of two cyclic groups, C_n \times C_n. Enforcing equivariance with respect to an even larger symmetry group than Transporter Net leads to even greater sample efficiency since equivariant neural networks learn effectively on a lower dimensional action space, the equivalence classes of samples under the group action. Thus a larger group results in an even smaller dimensional sample space and thus better coverage by the training data.
 
 <div>
   <div class="column_l">
@@ -140,12 +139,21 @@ Although Transporter Net is C_n-equivariant with regard to pick, the model does 
   </div>
 </div>
 
-## Highlight
+Although Transporter Net is C_n-equivariant with regard to pick, the model does not have a similar equivariance with regard to place. That is, if the model learns how to place an object in one orientation, that knowledge does not generalize immediately to different place orientations. This work seeks to add this type of equivariance to the Transporter Network model by incorporating C_n-equivarant convolutional layers into both the pick and place models. Our resulting model is equivariant both to changes in pick object orientation and changes in place orientation. This symmetry is illustrated in right figure below and can be viewed as a direct product of two cyclic groups, C_n \times C_n. Enforcing equivariance with respect to an even larger symmetry group than Transporter Net leads to even greater sample efficiency since equivariant neural networks learn effectively on a lower dimensional action space, the equivalence classes of samples under the group action. Thus a larger group results in an even smaller dimensional sample space and thus better coverage by the training data.
+
+
+### Highlight
+
+In our paper, we will first go through the design of Transporter Net and prove its C_n-Equivariance theoretically, and extend it to C_n-times-C_n Equivariance smoothly. The key point inside our equivariane is the Relativity Property, i.e., a rotation on the picked object is equivariant to an inverse rotation on the placement. We show the entire proof step by step in our Appendix. 
+
+The experiment part of our paper is based on [Ravens](https://github.com/google-research/ravens), a simulation environment in PyBullet for 2D robotic manipulation with emphasis on pick and place. Since Ravens uses suction gripper that doesn't require pick angle inference, we select five tasks described below and provide a Panda-Gripper version simulated Environment. 
+It inherits the Gym-like API from Ravens, each with (i) a scripted oracle that provides expert demonstrations and (ii) reward functions that provide partial credit. Check our code for more details.
 
 <p align="center">
   <img src="img/gripper.png" width="1000px">
 </p>
 
+## Real Robot Experiment
 <div>
   <div class="column">
     <img src="img/block-insertion.gif" style="width:100%">
