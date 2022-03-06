@@ -132,8 +132,9 @@ img.rounded {
 </div>
 
 
-<p>New line here</p><br>
-
+<p align="center">
+  <img src="img/gripper.png" width="1000px">
+</p>
 
 <div>
   <div class="column">
@@ -150,9 +151,6 @@ img.rounded {
   </div>
 </div>
 
-<p align="center">
-  <img src="img/gripper.png" width="1000px">
-</p>
 
 <p></p><br>
 
