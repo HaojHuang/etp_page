@@ -16,6 +16,7 @@ Transporter Net is a recently proposed framework for pick and place that is able
     vertical-align: baseline;
     text-align: center;
 }
+
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
@@ -69,6 +70,16 @@ img.rounded {
 
 ## Elevator Pitch
 
+<div>
+  <div class="column">
+    <img src="img/cn.png" style="width:100%">
+    <p class="caption">Block Insertion</p>
+  </div>
+  <div class="column">
+    <img src="img/cn_by_cn.png.gif" style="width:100%">
+    <p class="caption">Place Boxes in Bowls </p>
+  </div>
+</div>
 
 <div>
   <div class="column">
