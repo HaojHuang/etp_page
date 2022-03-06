@@ -102,7 +102,6 @@ img.rounded {
   
   <div class="column_l">
     <img src="img/blank.png" style="width:100%">
-    <p class="caption"> "" </p>
   </div>
   
   <div class="column_l">
