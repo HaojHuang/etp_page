@@ -76,10 +76,12 @@ img.rounded {
     <p class="caption">Block Insertion</p>
   </div>
   <div class="column">
-    <img src="img/cn_by_cn.png.gif" style="width:100%">
+    <img src="img/cn_by_cn.png" style="width:100%">
     <p class="caption">Place Boxes in Bowls </p>
   </div>
 </div>
+
+<br>
 
 <div>
   <div class="column">
