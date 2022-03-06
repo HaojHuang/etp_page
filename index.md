@@ -117,6 +117,22 @@ img.rounded {
 
 ### Equivariance in Pick and Place
 
+<div>
+  <div class="column_l">
+    <img src="img/cn.png" style="width:100%">
+    <p class="caption"> C_n Equivariance</p>
+  </div>
+  
+  <div class="column_m">
+    <img src="img/blank.png" style="width:100%">
+  </div>
+  
+  <div class="column_r">
+    <img src="img/cn_by_cn.png" style="width:100%">
+    <p class="caption"> C_n times C_n Equivariance </p>
+  </div>
+</div>
+
 Pick and place is an important topic in manipulation due to its value in industry. Traditional assembly methods in factories require customized workstations so that fixed pick and place actions can be manually predefined. Recently, considerable research has focused on end-to-end visioned based models that directly map input observations to actions, which can learn quickly and generalize well. However, due to the large action space, these methods often require copious amounts of data.
 
 A recent sample-efficient framework, Transporter Net, detects the pick-conditioned place pose by performing the cross convolution between an encoding of the scene and an encoding of a stack of differently rotated image patches around the pick. As  a  result  of  this  design,  Transporter Net is equivariant with respect to pick orientation. As shown in the left figure below, if the model can correctly pick the pink object and place it inside the green outline when the object is presented in one orientation, it is automatically able to pick and place the same object when it is presented in a different orientation.  This symmetry over object orientation enables Transporter Net to generalize well and it is fundamentally linked to the sample efficiency of the model. Assuming that pick orientation is discretized into n possible gripper rotations, we will refer to this as a C_n pick symmetry, where C_n is the finite cyclic subgroup of SO(2) that denotes a set of n rotations.
