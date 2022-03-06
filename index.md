@@ -37,6 +37,7 @@ Many challenging robotic manipulation problems can be viewed through the lens of
   display: table;
 }
 
+
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
@@ -98,12 +99,12 @@ Pick and place is an important topic in manipulation due to its value in industr
 
 <div>
   <div class="column_l">
-    <img src="img/cn.png" style="width:80%">
+    <img src="img/cn.png" style="width:95%">
     <p class="caption"> C_n Equivariance</p>
   </div>
  
   <div class="column_l">
-    <img src="img/cn_by_cn.png" style="width:80%">
+    <img src="img/cn_by_cn.png" style="width:95%">
     <p class="caption"> C_n by C_n Equivariance </p>
   </div>
 
