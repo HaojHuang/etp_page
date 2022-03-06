@@ -54,11 +54,6 @@ Many challenging robotic manipulation problems can be viewed through the lens of
   float: left;
   width: 16.66%;
 }
-.caption {
-    margin: 0;
-    vertical-align: baseline;
-    text-align: center;
-}
 
 
 
@@ -116,6 +111,8 @@ img.rounded {
 ## Elevator Pitch
 
 ### Equivariance in Pick and Place
+
+
 
 <div>
   <div class="column_l">
