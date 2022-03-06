@@ -20,7 +20,7 @@ Many challenging robotic manipulation problems can be viewed through the lens of
 
 .column_l {
   float: left;
-  width: 33.00%;
+  width: 33.33%;
 }
 .lc{
   float: left;
