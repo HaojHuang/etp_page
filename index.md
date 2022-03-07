@@ -150,7 +150,7 @@ It inherits the Gym-like API from Ravens, each with (i) a scripted oracle that p
 ```
 @misc{huang2022equivariant,
       title={Equivariant Transporter Network}, 
-      author={Haojie Huang and Dian Wang and Robin Walter and Robert Platt},
+      author={Haojie Huang and Dian Wang and Robin Walters and Robert Platt},
       year={2022},
       eprint={2202.09400},
       archivePrefix={arXiv},
