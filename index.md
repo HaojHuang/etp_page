@@ -147,5 +147,17 @@ It inherits the Gym-like API from Ravens, each with (i) a scripted oracle that p
 
 
 ## Citation
+```
+@misc{huang2022equivariant,
+      title={Equivariant Transporter Network}, 
+      author={Haojie Huang and Dian Wang and Robin Walter and Robert Platt},
+      year={2022},
+      eprint={2202.09400},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
 
 ## Contact
+
+huang dot haoj @ northeastern dot edu
