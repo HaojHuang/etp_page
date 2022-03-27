@@ -143,15 +143,37 @@ amount by which our method outperforms others is largest
 when the number of demonstrations is smallest, i.e. with only
 1 or 10 demonstrations.
 
+<p align="center">
+  <img src="img/table1.png" width="1000px">
+</p>
+
 
 Table II compares the performance
 of Equivariant Transporter with the baseline Transporter Net
 for the Parallel Jaw Gripper tasks. Again, our method outper-
 forms the baseline in nearly all cases.
 
+
 <p align="center">
-  <img src="img/table.png" width="1000px">
+  <img src="img/table2.png" width="1000px">
 </p>
+
+Apart from the better performance, Equivariant Transporter Network converges faster than Transporter Network. On the block insertion task, Equivariant
+Transporter can hit greater than 90% success rate after 10 training steps and achieve
+100% succeess rate with less than 100 training steps.
+
+<div>
+  <div class="column_l">
+    <img src="img/fast.png" style="width:95%">
+    <p class="caption"> Block-insertion task</p>
+  </div>
+ 
+  <div class="column_l">
+    <img src="img/fast1.png" style="width:95%">
+    <p class="caption"> Sweeping-piles task </p>
+  </div>
+
+</div>
 
 
 ## Real Robot Experiment
