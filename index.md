@@ -136,9 +136,23 @@ It inherits the Gym-like API from Ravens, each with (i) a scripted oracle that p
 
 ### Performance Comparison
 
+Table I shows the performance of our model on the Raven-10 tasks for different numbers of demonstrations used during training.
+All tests are evaluated on unseen configurations.  Our proposed Equivariant Transporter Net
+outperforms all the other baselines in nearly all cases. The
+amount by which our method outperforms others is largest
+when the number of demonstrations is smallest, i.e. with only
+1 or 10 demonstrations.
+
+
+Table II compares the performance
+of Equivariant Transporter with the baseline Transporter Net
+for the Parallel Jaw Gripper tasks. Again, our method outper-
+forms the baseline in nearly all cases.
+
 <p align="center">
   <img src="img/table.png" width="1000px">
 </p>
+
 
 ## Real Robot Experiment
 <div>
