@@ -164,9 +164,7 @@ Transporter can hit greater than 90% success rate after 10 training steps and ac
 </div>
 
 
-Table II compares the performance
-of Equivariant Transporter with the baseline Transporter Net
-for the Parallel Jaw Gripper tasks. Again, our method outper-
+Table II compares the performance  of Equivariant Transporter with the baseline Transporter Net for the Parallel Jaw Gripper tasks. Again, our method outper-
 forms the baseline in nearly all cases.
 
 
