@@ -158,7 +158,7 @@ Transporter can hit greater than 90% success rate after 10 training steps and ac
   </div>
  
   <div class="column_l">
-    <img src="img/fast1.png" style="width:95%">
+    <img src="img/fast2.png" style="width:95%">
     <p class="caption"> Sweeping-piles task </p>
   </div>
 </div>
