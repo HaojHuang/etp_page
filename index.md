@@ -151,19 +151,6 @@ Apart from the better performance, Equivariant Transporter Network converges fas
 Transporter can hit greater than 90% success rate after 10 training steps and achieve
 100% succeess rate with less than 100 training steps.
 
-<div>
-  <div class="column_l">
-    <img src="img/fast.png" style="width:100%">
-    <p class="caption"> Block-insertion task</p>
-  </div>
- 
-  <div class="column_l">
-    <img src="img/fast2.png" style="width:100%">
-    <p class="caption"> Sweeping-piles task </p>
-  </div>
-</div>
-
-
 Table II compares the performance  of Equivariant Transporter with the baseline Transporter Net for the Parallel Jaw Gripper tasks. Again, our method outper-
 forms the baseline in nearly all cases.
 
