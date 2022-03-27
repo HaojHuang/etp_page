@@ -134,6 +134,10 @@ It inherits the Gym-like API from Ravens, each with (i) a scripted oracle that p
   <img src="img/gripper.png" width="1000px">
 </p>
 
+<p align="center">
+  <img src="img/table.png" width="1000px">
+</p>
+
 ## Real Robot Experiment
 <div>
   <div class="column">
