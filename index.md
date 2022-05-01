@@ -182,13 +182,11 @@ forms the baseline in nearly all cases.
 
 ## Citation
 ```
-@misc{huang2022equivariant,
+@article{huang2022equivariant,
       title={Equivariant Transporter Network}, 
-      author={Haojie Huang and Dian Wang and Robin Walters and Robert Platt},
+      author={Huang, Haojie and Wang, Dian and Walters, Robin and Platt, Robert},
+      booktitle={Proceedings of Robotics: Science and Systems (RSS)},
       year={2022},
-      eprint={2202.09400},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
 }
 ```
 
