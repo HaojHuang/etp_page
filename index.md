@@ -185,7 +185,7 @@ forms the baseline in nearly all cases.
 @article{huang2022equivariant,
       title={Equivariant Transporter Network}, 
       author={Huang, Haojie and Wang, Dian and Walters, Robin and Platt, Robert},
-      booktitle={Proceedings of Robotics: Science and Systems (RSS)},
+      journal={Proceedings of Robotics: Science and Systems (RSS)},
       year={2022},
 }
 ```
