@@ -59,6 +59,8 @@ img.rounded {
   float: left;
   width: 150px;
 }
+
+
 </style>
 
 ## Paper &nbsp;&nbsp; &nbsp;&nbsp; [PDF](https://arxiv.org/abs/2202.09400)&nbsp;&nbsp;•&nbsp;&nbsp; [CODE](https://github.com/HaojHuang/Equivariant-Transporter-Net)&nbsp;&nbsp;•&nbsp;&nbsp;**RSS 2022**
@@ -182,12 +184,15 @@ forms the baseline in nearly all cases.
 
 ## Citation
 ```
-@article{huang2022equivariant,
-      title={Equivariant Transporter Network}, 
-      author={Huang, Haojie and Wang, Dian and Walters, Robin and Platt, Robert},
-      journal={Proceedings of Robotics: Science and Systems (RSS)},
-      year={2022},
-}
+@INPROCEEDINGS{Huang-RSS-22, 
+    AUTHOR    = {Haojie Huang AND Dian Wang AND Robin Walters AND Robert Platt}, 
+    TITLE     = {{Equivariant Transporter Network}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2022}, 
+    ADDRESS   = {New York City, NY, USA}, 
+    MONTH     = {June}, 
+    DOI       = {10.15607/RSS.2022.XVIII.007} 
+} 
 ```
 
 ## Contact
