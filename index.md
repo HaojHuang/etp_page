@@ -186,7 +186,7 @@ forms the baseline in nearly all cases.
 ```
 @INPROCEEDINGS{Huang-RSS-22, 
     AUTHOR    = {Haojie Huang AND Dian Wang AND Robin Walters AND Robert Platt}, 
-    TITLE     = {{Equivariant Transporter Network}}, 
+    TITLE     = {Equivariant Transporter Network}, 
     BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
     YEAR      = {2022}, 
     ADDRESS   = {New York City, NY, USA}, 
